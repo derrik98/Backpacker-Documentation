@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Backpacker</title>
+
+<script>
+	function changeImage(image){
+
+		if(image == 'images/home-page.jpg') {
+			document.getElementById('prototype').src='images/result-page.jpg';
+			document.getElementById('prototype').name='images/result-page.jpg';
+		} 
+		else if(image == 'images/result-page.jpg'){
+			document.getElementById('prototype').src='images/profile-page.jpg';
+			document.getElementById('prototype').name='images/profile-page.jpg';
+		}
+		else{
+			document.getElementById('prototype').src='images/home-page.jpg';
+			document.getElementById('prototype').name='images/home-page.jpg';
+		}
+	}	
+
+</script>
+
+</head>
+<body>
+
+<img id="prototype" src="images/home-page.jpg" onclick="changeImage(document.getElementById('prototype').name) "width="100%" name="images/home-page.jpg">
+
+</body>
+</html>
