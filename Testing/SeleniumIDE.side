@@ -1,0 +1,189 @@
+{
+  "id": "973b2004-e435-475a-9f95-66eb4cf53c92",
+  "version": "2.0",
+  "name": "SeleniumIDE",
+  "url": "https://www.google.it",
+  "tests": [{
+    "id": "dab485ea-c566-432f-aa3f-a3aded404822",
+    "name": "seleniumIDE",
+    "commands": [{
+      "id": "7a1d15de-e508-4250-822c-8d1e07e3773a",
+      "comment": "",
+      "command": "open",
+      "target": "/search?q=lenovo&sxsrf=APwXEddHgH9Vc3cYtOPhg3NdPyukvolGDg%3A1686087438301&source=hp&ei=Dqd_ZN2EENyQxc8Pw7GggAI&iflsig=AOEireoAAAAAZH-1HtO3WOSoUIt97gp-u08DuRWubz4i&ved=0ahUKEwjdw8WWza__AhVcSPEDHcMYCCAQ4dUDCAs&uact=5&oq=lenovo&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjEIoFECcyEwguEIAEEBQQhwIQsQMQxwEQ0QMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDoECCMQJzoNCC4QigUQxwEQ0QMQQzoHCAAQigUQQzoQCC4QigUQsQMQxwEQ0QMQQzoKCAAQigUQsQMQQzoHCAAQgAQQCjoKCAAQgAQQChDLAToHCCMQsAIQJzoTCC4QDRCABBCxAxCxAxDHARDRAzoKCAAQDRCABBCxAzoHCAAQDRCABDoKCAAQgAQQFBCHAlAAWLUYYMMaaARwAHgAgAFjiAGjBZIBATiYAQCgAQE&sclient=gws-wiz&bshm=nce/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63a35b04-d8ae-47e7-8d6a-3f2102eeb938",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x993",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabb8b34-64a5-4ef2-b847-39763bbbf7e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fdYsqf > .CCgQ5 > span",
+      "targets": [
+        ["css=.fdYsqf > .CCgQ5 > span", "css:finder"],
+        ["xpath=//div[@id='tads']/div/div/div/div/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Lenovo Italia Online Store - PC, Workstation e Monitor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df766fc0-9fc3-49fd-957b-7138bf6cb120",
+      "comment": "",
+      "command": "click",
+      "target": "css=.refine-btn",
+      "targets": [
+        ["css=.refine-btn", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "755d39c4-5588-488d-8c94-f5b94d9cd5f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(3) .v-list-item:nth-child(1) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(3) .v-list-item:nth-child(1) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[3]/section/div[2]/div[2]/div[3]/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f55e27-bda5-4ee1-9c88-ae24b4e57831",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(4) .v-list-item:nth-child(2) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(4) .v-list-item:nth-child(2) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[4]/div/div/div/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b77128a-1782-405e-8043-006214f3f488",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,313)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db23bdf4-e584-457d-9614-e154276d88d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(5) .v-list-item:nth-child(3) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(5) .v-list-item:nth-child(3) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[5]/div/div/div/div[3]/label/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[3]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca70977-31c3-4471-b900-cd62d7b2dee3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(7) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(7) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[7]/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0a87572-c5c0-4e17-acb2-ed530f60ac66",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,921)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bd09cd3-8a8a-4714-b5b8-788565996ece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(8) .v-list-item:nth-child(2) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(8) .v-list-item:nth-child(2) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[8]/div/div/div/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37776f88-5909-41ef-9d83-85ebcbfb1fce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1143)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e63545a-1439-4783-8548-5018fed2d5a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(9) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(9) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[9]/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6622d3e-d3bf-4a34-afa7-2a2928d6e490",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1143)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9fb3c1f-a993-4542-8ffe-f82f06b31e09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-expansion-panel:nth-child(11) .v-list-item__action",
+      "targets": [
+        ["css=.v-expansion-panel:nth-child(11) .v-list-item__action", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section/div[4]/div/div[2]/div[11]/div/div/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9428d31b-2350-48ef-9f6d-3180d15d4f59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1164)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c05ec63a-8bad-4f41-9beb-35f160103692",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.price-container__price-value",
+      "targets": [
+        ["css=.price-container__price-value", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div[6]/section[2]/div[2]/div/div/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'€ 1.049,00')]", "xpath:innerText"]
+      ],
+      "value": "€ 1.049,00"
+    }, {
+      "id": "4487854c-937a-44be-ab63-04252e39e026",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b4ad4f6-e4ca-47c9-b49f-62f261f2f303",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.it/"],
+  "plugins": []
+}
